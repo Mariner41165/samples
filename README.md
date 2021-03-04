@@ -2,7 +2,7 @@
 
 ##File "testCases.xlsx" contains simple test cases I performed during the course
 
-##In "bugReports.xlsx" represents bug reports examples I wrote during internship
+##"bugReports.xlsx" represents bug reports examples I wrote during internship
 
 ##"Words.java" is a java class file where I accomplished the following task: create a program that count words in a huge text and return statistics.
 
