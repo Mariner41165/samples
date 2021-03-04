@@ -1,5 +1,3 @@
-package com.efimchick.ifmo.collections.countwords;
-
 import java.util.*;
 
 public class Words {
