@@ -1,5 +1,11 @@
 # samples
 
+##testCases.xlsx
+simple test cases I performed during the course
+
+##bugReports.xlsx
+bug reports examples I wrote during internship
+
 ##Words.java
 Task: create a program that count words in a huge text and return statistics.
 
