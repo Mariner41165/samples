@@ -1,4 +1,4 @@
-# countWords
+# samples
 
-##Description
-Count words in a huge text and return statistics.
+##Words.java
+Task: create a program that count words in a huge text and return statistics.
