@@ -1,0 +1,15 @@
+//task: write a query that returns a list of drivers (only last names) with driving experience over 10 years who can drive more than 2 cars
+
+//to complete the task I created three tables in 'sqliteonline.com' and populated them with some values:
+//    queries for creating the tables are like: 
+//        CREATE TABLE driver (ID INTEGER NOTNULL, first_name TEXT, last_name TEXT, driving_experience INTEGER)
+//    queries for filling these tables are like: 
+//        INSERT INTO driver (id, first_name, last_name, driving_experience) VALUES
+//        ('1', 'Louis', 'Armstrong', '10'),
+//        ('2', 'Frank', 'Sinatra', '20')
+
+SELECT d.last_name FROM driver d 
+LEFT JOIN car_driver cd ON d.id = cd.driver_id
+GROUP BY d.last_name, d.driving_experience 
+HAVING d.driving_experience > 10 AND COUNT(cd.car_id) >= 2 
+ORDER BY last_name
